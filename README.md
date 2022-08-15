@@ -1,1 +1,1 @@
-# MP_2
+# Diplomado Python Profesional UC - 2022
