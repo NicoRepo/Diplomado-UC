@@ -1,0 +1,287 @@
+Pregunta 3
+- Item 1
++-----------------+---------------+----------+
+|    last_name    |   first_name  | How Many |
++-----------------+---------------+----------+
+|     Pasetta     |     Marty     |    23    |
+|      Gowers     |     Bruce     |    21    |
+|     Margolis    |      Jeff     |    16    |
+|     Horvitz     |    Louis J.   |    15    |
+|      Miller     |   Walter C.   |    14    |
+|       Sasi      |      I.V.     |    11    |
+|      Dunlap     |    Richard    |    11    |
+|    de Moraes    |      Ron      |    10    |
+|     Prakash     |     J. Om     |    10    |
+|      Ishii      |     Teruo     |    9     |
+|      Weiss      |     Glenn     |    8     |
+|     Álvarez     |  Santiago (I) |    7     |
+|        Ng       |      Wui      |    6     |
+|     Muhammad    |      Amir     |    6     |
+|     Benning     |     James     |    6     |
+|        Ko       |   Young Nam   |    6     |
+|      Jones      |     Clark     |    6     |
+|     Sennett     |      Mack     |    5     |
+|      Miller     |      Troy     |    5     |
+|      Apted      |    Michael    |    5     |
+|      McCoy      |   Terri (I)   |    5     |
+|      Bhatt      |   Mahesh (I)  |    5     |
+|     Donovan     |     Chris     |    5     |
+|    Bennington   |      Bill     |    5     |
+|      Boese      |      Carl     |    5     |
+|      Paley      |     Steve     |    4     |
+|      Frisk      |     Ragnar    |    4     |
+|       Lee       |  Man-hui (I)  |    4     |
+|    Josephson    |   Heinz (I)   |    4     |
+|     Goodman     |     Roger     |    4     |
+|      Dasari     |  Narayana Rao |    4     |
+| Raghavendra Rao |       K.      |    4     |
+|      Mitra      |     Shibu     |    4     |
+|   Chandrakumar  |       P.      |    4     |
+|      Kumar      |   Mohan (I)   |    4     |
+|      Lazaga     |   Pedro (I)   |    4     |
+|      E.V.V.     | Satyanarayana |    4     |
+|   Balachander   |       K.      |    4     |
+|     Flitton     |      Dave     |    4     |
++-----------------+---------------+----------+
+
+- Item 2
++---------------+----------------------+-----------------+
+|   last_name   |      first_name      | COUNT(movie_id) |
++---------------+----------------------+-----------------+
+|     Aaron     |         Jane         |        5        |
+|  Aasmundtveit |         Olav         |        1        |
+|      Abad     |       Eduardo        |        5        |
+|     Abadia    |        Regine        |        4        |
+|     Abajo     |        David         |        2        |
+|     Abbas     |        Munshi        |        3        |
+|  Abdel Wahab  |        Hamada        |        2        |
+|     Abedi     |    Mohammad Reza     |        1        |
+|    Abolafia   |        Yossi         |        1        |
+|   Aboulafia   |         Roni         |        2        |
+|    Abramov    |        A. (I)        |        1        |
+|   Abramovic   |       Velimir        |        1        |
+|    Acevedo    |     Juan Ignacio     |        1        |
+|     Acland    |         A.W.         |        1        |
+|     Acosta    |       José (I)       |        1        |
+|     Adami     |       Giuseppe       |        1        |
+|      Adar     |         Rafi         |        1        |
+|    Addessi    |      A. Charles      |        9        |
+|    Adelman    |     Charles (I)      |        1        |
+|    Adilardi   |         Ugo          |        2        |
+|     Adjadj    |         Marc         |        1        |
+|     Adler     |        Helmer        |        1        |
+|     Adlon     |        Percy         |        3        |
+|    Adriano    |        Carlos        |        1        |
+|   Afanasyev   |         Yuri         |        1        |
+|     Agard     |        Laurie        |        2        |
+|    Aguilera   |        Félix         |        1        |
+|    Aguirre    |     Héctor Fabio     |        1        |
+|    Aguirre    |      Javier (I)      |        1        |
+|    Aguirre    |      Jorge (I)       |        2        |
+|    Aguirre    |        Monti         |        2        |
+|    Aguirre    |        Rubén         |        2        |
+|    Aguirre    |       Salvador       |        2        |
+|     Ahmadi    |       Safoura        |        2        |
+|      Ahn      |        Dal-ho        |        1        |
+|     Ahrle     |         Elof         |        1        |
+|    Ajmanov    |        Shaken        |        1        |
+|    Akchoti    |       Jacques        |        1        |
+|     Akinci    |         Nuri         |        2        |
+|    Al-Asadi   |        Samer         |        1        |
+|     Alakus    |        Buket         |        2        |
+|     Albert    |        Justin        |        1        |
+|    Alberta    |        Clint         |        1        |
+|     Alcade    |        Renaud        |        1        |
+|   Alcântara   |         João         |        1        |
+|     Alcock    |       Frances        |        1        |
+|   Alejandra   |       Sánchez        |        3        |
+|   Alejandro   |      Julio (I)       |        1        |
+|  Aleksandrov  |          A.          |        1        |
+|   Alekseyev   |         Igor         |        1        |
+|    Aleksic    |       Vladimir       |        1        |
+|  Alessandrini |       Goffredo       |        1        |
+|    Alexakis   |       Vassilis       |        1        |
+|   Alexander   |      Bill (III)      |        2        |
+|   Alexander   |         Jace         |        1        |
+|   Alexander   |      Jason (I)       |        1        |
+|   Alexander   |      Kim (III)       |        1        |
+|   Alexander   |       Zbigniew       |        1        |
+| Alexandrowicz |       Ra'anan        |        1        |
+|   Alfredson   |        Daniel        |        1        |
+|     Allen     |       Craig G.       |        1        |
+|     Allen     |      Norma (I)       |        1        |
+|     Allen     |      Stuart (I)      |        2        |
+|    Alletto    |        Franco        |        1        |
+|     Allon     |       Ghislain       |        1        |
+| Almeida Lopes |       Antonio        |        1        |
+|     Alonso    |        Rafael        |        1        |
+|     Alpert    |        Niels         |        1        |
+|    Altanaj    |        Ertil         |        1        |
+|    Altekar    | Parshwanath Yeshwant |        1        |
+|  Altenburger  |        Robert        |        1        |
+|    Alvarez    |      Marina (I)      |        1        |
+|     Alvart    |      Christian       |        1        |
+|     Alves     |         Joe          |        1        |
+|   Amagasaki   |        Gilyak        |        2        |
+|     Amari     |         Raja         |        1        |
+|    Amarnath   |          K.          |        3        |
+|     Amato     |      Francesco       |        1        |
+|    Amiguet    |    Jean-François     |        1        |
+|      Amir     |         Mia          |        1        |
+|      Amos     |         K.C.         |        1        |
+|     Amrohi    |        Kamal         |        1        |
+|     Anania    |         Jay          |        1        |
+|    Anchugov   |        Andrey        |        1        |
+|    Andalian   |       Kaloust        |        1        |
+|    Anderson   |       Madeline       |        1        |
+|    Anderson   |      Steve (XV)      |        1        |
+|   Andersson   |        Jenny         |        1        |
+|    Anderton   |        Kevin         |        1        |
+|  Andjaparidze |         Meri         |        1        |
+|     André     |        Klaus         |        1        |
+|   Andreassi   |       Raffaele       |        1        |
+|     Andrés    |       Enrique        |        1        |
+|     Andreu    |         José         |        1        |
+|   Andritsos   |        Kostas        |        1        |
+|     Angel     |     Suzanne (II)     |        3        |
+|     Angeli    |         Ivan         |        1        |
+|   Angelovski  |     Nikola-Kole      |        1        |
+|   Angiolillo  |        Renato        |        1        |
+|     Ankri     |        Serge         |        1        |
+|    Ansbach    |         Mike         |        1        |
+|    Antamoro   |        Giulio        |        1        |
+|    Anthony    |      Peter (II)      |        1        |
+|    Antonini   |       Claudio        |        1        |
+|  Appenzeller  |         Uri          |        1        |
+|  Appleton Jr. |       Louis B.       |        1        |
+|     Apted     |       Michael        |        1        |
+|     Arakon    |        Aydin         |        1        |
+|     Araujo    |         Raul         |        1        |
+|    Arbuckle   |    Roscoe 'Fatty'    |        1        |
++---------------+----------------------+-----------------+
+
+- Item 3
++--------------------------------------------+------+-------------------+---------+
+|                   Movie                    | Year |      Director     | Ranking |
++--------------------------------------------+------+-------------------+---------+
+|                12 (2003/II)                | 2003 |     Silverman     |   9.8   |
+|                  $40,000                   | 1996 |       Lorton      |   9.6   |
+|                   +1 -1                    | 1987 |       Manuli      |   9.6   |
+|                    36K                     | 2000 |     Scheuring     |   9.5   |
+|             14 Million Dreams              | 2003 |       Roston      |   9.5   |
+|                5 Card Stud                 | 2002 |      Saroyan      |   9.4   |
+|         Able's House Is Green, The         | 2003 |       Rogers      |   9.4   |
+|                 2wks, 1yr                  | 2002 |       McKay       |   9.4   |
+|                 12 stulyev                 | 1971 |       Gaidai      |   9.3   |
+|               Abrahams Gold                | 1990 |       Graser      |   9.3   |
+|                   Abang                    | 1981 |       Razali      |   9.3   |
+|                    8  $                    | 1999 | Konstantinopolsky |   9.2   |
+|                    2+1                     | 2004 |       Safir       |   9.2   |
+|                1001 Nights                 | 1998 |       Smith       |    9    |
+|                  Aatomik                   | 1970 |      Tuganov      |    9    |
+|                     24                     | 2001 |       Davis       |    9    |
+|                 A La Cart                  | 1997 |       Neese       |    9    |
+|                     24                     | 2001 |      Beránek      |    9    |
+|                  7 Songs                   | 2003 |       Stern       |    9    |
+| 3 Feet Under: Digging Deep for the Geoduck | 2003 |       Bookey      |    9    |
+|                 7. himmel                  | 2003 |     Strandberg    |   8.9   |
+|                  27 Down                   | 1974 |        Kaul       |   8.8   |
+|         10 from Your Show of Shows         | 1973 |      Liebman      |   8.8   |
+|                 5 Poder, O                 | 1962 |     Pieralisi     |   8.7   |
+|                12 Angry Men                | 1957 |       Lumet       |   8.7   |
+|           Abdul the Bulbul Ameer           | 1941 |       Harman      |   8.7   |
+|               20. Juli, Der                | 1955 |      Harnack      |   8.6   |
+|      141 perc a befejezetlen mondatbl      | 1975 |       Fábri       |   8.6   |
+|                    Aan                     | 1952 |        Khan       |   8.6   |
+|            A zori zdes tikhiye             | 1972 |     Rostotsky     |   8.6   |
+|          4 Geschichten ber 5 Tote          | 1998 |       Büchel      |   8.6   |
+|                 Aashirwad                  | 1968 |     Mukherjee     |   8.6   |
+|          AC/DC: Let There Be Rock          | 1980 |     Dionysius     |   8.6   |
+|          AC/DC: Let There Be Rock          | 1980 |      Mistler      |   8.6   |
+| 21st Century Jet: The Building of the 777  | 1996 |      Sabbagh      |   8.5   |
+|               A toda mquina                | 1951 |     Rodríguez     |   8.5   |
+|                    2046                    | 2004 |        Wong       |   8.5   |
+|                   Aatish                   | 1994 |       Gupta       |   8.5   |
+|                12 mesyatsev                | 1956 |    Ivanov-Vano    |   8.4   |
+|      12 Stops on the Road to Nowhere       | 1999 |        Lowi       |   8.4   |
+|              2 Little, 2 Late              | 1999 |       Smith       |   8.4   |
+|              Aa Okkati Adakku              | 1993 |       E.V.V.      |   8.4   |
+|          Abot kamay ang pangarap           | 1996 |   Siguion-Reyna   |   8.4   |
+|      500 Hats of Bartholemew Cubbins       | 1943 |        Pal        |   8.4   |
+|               8:e sngen, Den               | 1998 |       Parsa       |   8.3   |
+|              7 ddssyndene, De              | 2000 |      Mosvold      |   8.3   |
+|              7 ddssyndene, De              | 2000 |       Sødahl      |   8.3   |
+|              7 ddssyndene, De              | 2000 |      Haugerud     |   8.3   |
+|                   15 das                   | 2000 |       Cortés      |   8.3   |
+|               17th Man, The                | 2004 |        Jin        |   8.3   |
+|              7 ddssyndene, De              | 2000 |     Gudmestad     |   8.3   |
+|           2001: A Space Odyssey            | 1968 |      Kubrick      |   8.3   |
+|              7 ddssyndene, De              | 2000 |        Olin       |   8.3   |
+|              7 ddssyndene, De              | 2000 |      Karlsen      |   8.3   |
+|                   Aadmi                    | 1968 |     Bhimsingh     |   8.3   |
+|              7 ddssyndene, De              | 2000 |       Åslein      |   8.3   |
+|                   Aadmi                    | 1993 |        Khan       |   8.3   |
+|                 9 Mornings                 | 2002 |       Reyes       |   8.2   |
+|              Aadmi Aur Apsara              | 1991 |      Prakash      |   8.2   |
+|                   12:35                    | 2002 |      Stafford     |   8.2   |
+|              Aadmi Aur Apsara              | 1991 |  Raghavendra Rao  |   8.2   |
+|         2 bileta na dnevnoj seans          | 1966 |     Rappaport     |   8.2   |
+|       Abenteuer des Werner Holt, Die       | 1965 |       Kunert      |   8.2   |
+|                  80 huszr                  | 1978 |        Sára       |   8.2   |
+|     Abenteuer des Prinzen Achmed, Die      | 1926 |      Reiniger     |   8.1   |
+|           A-Ducking They Did Go            | 1939 |        Lord       |   8.1   |
+|         4 maneras de tapar un hoyo         | 1995 |       Rendón      |   8.1   |
+|     Abenteuer des Prinzen Achmed, Die      | 1926 |        Koch       |   8.1   |
+|            Absolutely Positive             | 1991 |       Adair       |   8.1   |
+|         4 maneras de tapar un hoyo         | 1995 |     Villalobos    |   8.1   |
+|               Aakhree Raasta               | 1986 |     Bhagyaraja    |   8.1   |
+|                   Abwege                   | 1928 |       Pabst       |   8.1   |
+|                  4 Clowns                  | 1970 |      Youngson     |   8.1   |
+|            7 Days In September             | 2002 |     Rosenbaum     |   8.1   |
+|                     8                      | 1963 |      Fellini      |   8.1   |
++--------------------------------------------+------+-------------------+---------+
+
+- Item 4 (Pandas)
+                        Movie Ranking
+0                12 (2003/II)     9.8
+1                     $40,000     9.6
+2                       +1 -1     9.6
+3                         36K     9.5
+4           14 Million Dreams     9.5
+5                 5 Card Stud     9.4
+6  Able's House Is Green, The     9.4
+7                   2wks, 1yr     9.4
+8                  12 stulyev     9.3
+9               Abrahams Gold     9.3
+                                        Movie  Year       Director Ranking
+20                                  7. himmel  2003     Strandberg     8.9
+21                                    27 Down  1974           Kaul     8.8
+22                 10 from Your Show of Shows  1973        Liebman     8.8
+23                                 5 Poder, O  1962      Pieralisi     8.7
+24                               12 Angry Men  1957          Lumet     8.7
+25                     Abdul the Bulbul Ameer  1941         Harman     8.7
+26                              20. Juli, Der  1955        Harnack     8.6
+27           141 perc a befejezetlen mondatbl  1975          Fábri     8.6
+28                                        Aan  1952           Khan     8.6
+29                        A zori zdes tikhiye  1972      Rostotsky     8.6
+30                   4 Geschichten ber 5 Tote  1998         Büchel     8.6
+31                                  Aashirwad  1968      Mukherjee     8.6
+32                   AC/DC: Let There Be Rock  1980      Dionysius     8.6
+33                   AC/DC: Let There Be Rock  1980        Mistler     8.6
+34  21st Century Jet: The Building of the 777  1996        Sabbagh     8.5
+35                              A toda mquina  1951      Rodríguez     8.5
+36                                       2046  2004           Wong     8.5
+37                                     Aatish  1994          Gupta     8.5
+38                               12 mesyatsev  1956    Ivanov-Vano     8.4
+39            12 Stops on the Road to Nowhere  1999           Lowi     8.4
+40                           2 Little, 2 Late  1999          Smith     8.4
+41                           Aa Okkati Adakku  1993         E.V.V.     8.4
+42                    Abot kamay ang pangarap  1996  Siguion-Reyna     8.4
+43            500 Hats of Bartholemew Cubbins  1943            Pal     8.4
+44                             8:e sngen, Den  1998          Parsa     8.3
+45                           7 ddssyndene, De  2000        Mosvold     8.3
+46                           7 ddssyndene, De  2000         Sødahl     8.3
+47                           7 ddssyndene, De  2000       Haugerud     8.3
+48                                     15 das  2000         Cortés     8.3
+49                              17th Man, The  2004            Jin     8.3
+
