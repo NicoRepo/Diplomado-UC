@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {# Esto permite cargar las reglas CSS desde el archivo style.css #}
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'music/content.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'music/sidebar.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'music/layout.css' %}">
+  <title>Music App</title>
+</head>
+
+<body>
+  <header>
+    Music App
+  </header>
+  <div id="sidebar">
+    <div class="sidebar-title">Menú</div>
+    <ul class="sidebar-menu"aria-label="Menú">
+      <li>Artistas</li>
+      <li>Álbumes</li>
+      <li>Conciertos</li>
+      <li>Videos</li>
+    </ul>
+  </div>
+  <main>
+    <div id="section_a">
+      <h2 class="content-title">Artistas</h2>
+      <ol class="artist-list">
+        <li>Metallica</li>
+        <li>Iron Maiden</li>
+        <li>Los Bunkers</li>
+        <li>Paramore</li>
+        <li>Los Mox</li>
+        <li>La Renga</li>
+        <li>Silverstein</li>
+        <li>Oasis</li>
+        <li>Trivium</li>
+        <li>Dream Theater</li>
+      </ol>
+    </div>
+    <div id="section_b">
+      <h2 class="content-title">Álbumes</h2>
+      <table class="artist-table">
+        <thead>
+          <tr>
+            <th>Artista</th>
+            <th>Álbum</th>
+            <th>Año</th>  
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="4">Silverstein</td>
+            <td>Misery Made Me</td>
+            <td class="centered-year">2022</td>
+          </tr>
+          <tr>
+            <td>A Beautiful Place To Drown</td>
+            <td class="centered-year">2020</td>
+          </tr>
+          <tr>
+            <td>Redux II</td>
+            <td class="centered-year">2019</td>
+          </tr>
+          <tr>
+            <td>Redux: The First 10 Years</td>
+            <td class="centered-year">2019</td>
+          </tr>
+          <tr>
+            <td rowspan="6">Los Bunkers</td>
+            <td>La Velocidad de la Luz</td>
+            <td class="centered-year">2013</td>
+          </tr>
+          <tr>
+            <td>Música Libre</td>
+            <td class="centered-year">2010</td>
+          </tr>
+          <tr>
+            <td>Barrio Estación</td>
+            <td class="centered-year">2008</td>
+          </tr>
+          <tr>
+            <td>En Vivo</td>
+            <td class="centered-year">2006</td>
+          </tr>
+          <tr>
+            <td>Vida De Perros</td>
+            <td class="centered-year">2005</td>
+          </tr>
+          <tr>
+            <td>La Culpa</td>
+            <td class="centered-year">2003</td>
+          </tr>
+          <tr>
+            <td rowspan="4">Paramore</td>
+            <td>Paramore</td>
+            <td class="centered-year">2013</td>
+          </tr>
+          <tr>
+            <td>Brand New Eyes</td>
+            <td class="centered-year">2009</td>
+          </tr>
+          <tr>
+            <td>Riot!</td>
+            <td class="centered-year">2007</td>
+          </tr>
+          <tr>
+            <td>all We Know Is Falling</td>
+            <td class="centered-year">2005</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <footer>
+    <span>
+      Copyright &copy; Python y la Web, 2020. Más información <a href="#" style="color: white;">en la página de Clase Ejecutiva</a>
+    </span>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+.sidebar-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.sidebar-menu {
+  color: white;
+  margin: 30px;
+}
+
+.sidebar-menu li {
+  margin: 20px;
+  text-decoration: underline;
+}

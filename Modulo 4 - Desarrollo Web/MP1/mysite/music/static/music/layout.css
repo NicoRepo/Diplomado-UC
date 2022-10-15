@@ -1,0 +1,218 @@
+:root {
+  --sidebar-width: 225px;
+  --sidebar-heigth-sm: 100px;
+  --sidebar-heigth-xs: 150px;
+  --header-heigth: 125px;
+  --footer-heigth: 75px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+header {
+  background-color: black;
+  color: white;
+  font-size: 36px;
+  text-align: start;
+  padding-top: 30px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+#sidebar {
+  background-color: darkblue;
+}
+
+
+body {
+  display: grid;
+  grid-template-rows: var(--header-heigth) auto var(--footer-heigth);
+  grid-template-columns: var(--sidebar-width) auto;
+  grid-template-areas:
+    'header header'
+    'sidebar content'
+    'footer footer'
+  ;
+}
+
+main {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 50% auto;
+  grid-template-areas:
+    'content_a content_b'
+  ;
+}
+
+#section_a {
+  padding: 15px;
+  grid-area: content_a;
+}
+
+#section_b {
+  padding: 15px;
+  grid-area: content_b;
+}
+
+header {
+  grid-area: header;
+}
+
+#sidebar {
+  grid-area: sidebar;
+}
+
+main {
+  grid-area: content;
+}
+
+footer {
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+  grid-area: footer;
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  body {
+    grid-template-areas:
+      'header header'
+      'sidebar content'
+      'footer footer'
+    ;
+  }
+}
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  body {
+    grid-template-areas:
+      'header header'
+      'sidebar content'
+      'footer footer'
+    ;
+  }
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  body {
+    grid-template-areas:
+      'header header'
+      'sidebar content'
+      'footer footer'
+    ;
+  }
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  body {
+    grid-template-areas:
+      'header header'
+      'sidebar content'
+      'footer footer'
+    ;
+  }
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    grid-template-rows: var(--header-heigth) var(--sidebar-heigth-sm) auto var(--footer-heigth);
+    grid-template-areas:
+      'header header'
+      'sidebar sidebar'
+      'content content'
+      'footer footer'
+    ;
+  }
+  
+  main {
+    grid-template-areas:
+      'content_a content_a'
+      'content_b content_b'
+    ;
+  }
+
+  #sidebar {
+    display: flex;
+    align-items: center;
+  }
+
+  .sidebar-title {
+    margin-top: 0px;
+  }
+
+  .sidebar-menu {
+    margin: 0;
+  }
+  .sidebar-menu li {
+    margin: 0px;
+    display: inline-block;
+  }
+  
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 0) and (max-width: 480px) {
+  body {
+    grid-template-rows: var(--header-heigth) var(--sidebar-heigth-sm) auto var(--footer-heigth);
+    grid-template-areas:
+      'header header'
+      'sidebar sidebar'
+      'content content'
+      'footer footer'
+    ;
+  }
+
+  main {
+    grid-template-areas:
+      'content_a content_a'
+      'content_b content_b'
+    ;
+  }
+
+  #sidebar {
+    display: flex;
+    align-items: center;
+  }
+
+  .sidebar-title {
+    margin-top: 0px;
+  }
+
+  .sidebar-menu {
+    margin: 0;
+  }
+  .sidebar-menu li {
+    margin: 0px;
+    display: inline-block;
+  }
+}
+  

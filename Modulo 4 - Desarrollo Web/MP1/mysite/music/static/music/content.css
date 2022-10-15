@@ -1,0 +1,27 @@
+.section_a-title {
+  text-align: start;
+}
+
+.artist-list li {
+  padding: 10px;
+  margin: 5px;
+  background-color: lightgreen;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+
+.artist-table{
+  width: 100%;
+}
+
+.artist-table, th, td, tr {
+  border: 1px dashed seagreen;
+  border-width: 2px;
+}
+
+.artist-table td.centered-year {
+  text-align: center;
+}
