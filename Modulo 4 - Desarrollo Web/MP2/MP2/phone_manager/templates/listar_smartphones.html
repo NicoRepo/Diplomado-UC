@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+{% block title %}SmartPhones{% endblock %}
+
+{% block content %}
+<div class="d-flex vh-100 justify-content-center align-items-center">
+  <div class="d-flex flex-column">
+    {% for fabricante in fabricantes %}
+      <div class="card my-3" style="width: 500px;">
+        <div class="card-header fw-bold"> {{ fabricante.nombre }} </div>
+        <div class="card-body">
+          {% for equipo in fabricante.equipos %}
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item d-flex justify-content-between align-items-start my-1">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">{{ equipo.nombre }}</div>
+                    <ul class="list-group list-group-horizontal">
+                      <li class="list-group-item">{{ equipo.ram }}</li>
+                      <li class="list-group-item">{{ equipo.almacenamiento }}</li>
+                      <li class="list-group-item">{{ equipo.tamaño_pantalla }}</li>
+                    </u>
+                </div>
+              </li>
+            </ol>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}  
+  </div>
+</div>
+{% endblock %}
