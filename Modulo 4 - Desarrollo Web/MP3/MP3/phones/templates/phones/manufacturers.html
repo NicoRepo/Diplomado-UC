@@ -1,0 +1,14 @@
+{% extends 'phones/base.html' %}
+
+{% block body %}
+    <h1>Manufacturers</h1>
+
+    {% for manufacturer in manufacturers %}
+    <h2>{{ manufacturer.name }}</h2>
+    <ul>
+        {% for smartphone in manufacturer.smartphone_set.all %}
+        <li>{{ smartphone.name }}</li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+{% endblock %}

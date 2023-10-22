@@ -1,0 +1,14 @@
+{% extends 'phones/base.html' %}
+
+{% block body %}
+    <h1>Create smartphone</h1>
+    <form id="phone-form" action="{% url 'smartphone_create' %}" method="post">
+        {% csrf_token %}
+        <table>
+            {{ form.as_table }}
+        </table>
+      <input type="submit" value="Save">
+    </form>
+    {% load static %}
+    <script src="{% static 'js/date_validation.js' %}"></script>
+{% endblock %}

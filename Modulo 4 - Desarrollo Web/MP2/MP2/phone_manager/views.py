@@ -33,21 +33,6 @@ class AgregarSmartPhone(View):
       return JsonResponse({"STATUS": "OK"})
     return JsonResponse({"STATUS": "KO"})
 
-class AgregarSmartPhone(View):
-  form_class = SmartPhoneForm
-  template_name = 'agregar_smartphone.html'
-
-  def get(self, request, *args, **kwargs):
-    form = self.form_class()
-    return render(request, self.template_name, {'form': form})
-
-  def post(self, request, *args, **kwargs):
-    form = self.form_class(request.POST)
-    if form.is_valid():
-      action = form.save()
-      return JsonResponse({"STATUS": "OK"})
-    else: return JsonResponse({"STATUS": "KO"})
-
 class ListarSmartPhones(View):
   template_name = 'listar_smartphones.html'
 

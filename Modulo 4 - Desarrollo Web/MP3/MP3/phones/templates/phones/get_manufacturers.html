@@ -1,0 +1,12 @@
+{% extends 'phones/base.html' %}
+
+{% block body %}
+    <h1>Companies</h1>
+    <form action="{% url 'get_manufacturers' %}" method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-primary">Crear</button>
+      </div>
+    </form>
+{% endblock %}
